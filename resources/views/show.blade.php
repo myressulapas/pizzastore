@@ -63,7 +63,7 @@
                         <h3>{{ $pizza->name }}</h3>
                         </p>
                         <p>
-                        <h3>{{ $pizza->description }}em Ipsum is simply dummy text of the printing </h3>
+                        <h3>{{ $pizza->description }} </h3>
                         </p>
                         <p class="badge badge-success">Vegetarian</p>
                         <p class="lead">Small pizza price:${{ $pizza->small_pizza_price }}</p>

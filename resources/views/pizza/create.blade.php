@@ -41,7 +41,7 @@
                                 <textarea class="form-control" name="description"></textarea>
                             </div>
                             <div class="form-inline">
-                                <label>Pizza price($)</label>
+                                <label>Pizza price(₱)</label>
                                 <input type="number" name="small_pizza_price" class="form-control"
                                     placeholder="small pizza price">
                                 <input type="number" name="medium_pizza_price" class="form-control"

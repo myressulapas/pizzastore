@@ -36,7 +36,7 @@
                                         <td>{{ $order->small_pizza }}</td>
                                         <td>{{ $order->medium_pizza }}</td>
                                         <td>{{ $order->large_pizza }}</td>
-                                        <td>${{ ($order->pizza->small_pizza_price * $order->small_pizza)+
+                                        <td>₱{{ ($order->pizza->small_pizza_price * $order->small_pizza)+
                                             ($order->pizza->medium_pizza_price * $order->medium_pizza)+
                                             ($order->pizza->large_pizza_price * $order->large_pizza)
                                             }}</td>
